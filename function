@@ -1,0 +1,17 @@
+#include<stdio.h>
+int add();
+int  main()
+{
+    int n,m,k;
+    k = add();
+    return 0;
+}
+
+add()
+{
+int a, b, sum;
+scanf("%d %d", &a, &b);
+sum = a + b;
+printf("Sum : %d", sum);
+return(0);
+ }
